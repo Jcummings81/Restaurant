@@ -1,30 +1,39 @@
 #header {
-font-size: 2em;
+font-size: 3em;
 margin: 20px 10px;
-justify-content: center;
 display: flex;
+justify-content: center;
 background-color: orange;
+border: 4px solid red;
 
-}
-
-#menu {
-    display: flex;
-    flex-direction: column;
-    margin: 10px;
-    justify-content: center;
-    border: 2px, solid, palegreen;
 }
 
 .container {
-    justify-content: center;
+    background-color: #5995DA;
+    color: white;
+    padding: 20px 0;
     font-size: 1.5em;
-}
-.men {
     display: flex;
-    align-items: flex-start;
-    border: 5px solid black;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h2 {
-align-self: center;
-}
+  
+  h2 {
+      font-size: 2.5em;
+  }
+  h3 {
+      font-size: 1.5em;
+  }
+  ul {
+      font-size: 1em;
+  }
+
+  #catering {
+      font-size: 1.5em;
+    background-color: saddlebrown;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: flex-start;
+  }
