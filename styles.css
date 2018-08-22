@@ -14,11 +14,11 @@ border: 4px solid red;
     padding: 20px 0;
     font-size: 1.5em;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
-  
   h2 {
       font-size: 2.5em;
   }
@@ -30,7 +30,7 @@ border: 4px solid red;
   }
 
   #catering {
-      font-size: 1.5em;
+    font-size: 1.5em;
     background-color: saddlebrown;
     color: white;
     padding: 20px 0;
