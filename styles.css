@@ -1,0 +1,30 @@
+#header {
+font-size: 2em;
+margin: 20px 10px;
+justify-content: center;
+display: flex;
+background-color: orange;
+
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    justify-content: center;
+    border: 2px, solid, palegreen;
+}
+
+.container {
+    justify-content: center;
+    font-size: 1.5em;
+}
+.men {
+    display: flex;
+    align-items: flex-start;
+    border: 5px solid black;
+}
+
+h2 {
+align-self: center;
+}
