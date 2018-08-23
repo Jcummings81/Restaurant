@@ -1,6 +1,7 @@
 #header {
 font-size: 3em;
-margin: 20px 10px;
+height: 80px;
+margin: 2px;
 display: flex;
 justify-content: center;
 background-color: orange;
@@ -8,32 +9,52 @@ border: 4px solid red;
 
 }
 
-.container {
-    background-color: #5995DA;
+.menu-container {
+        background-color: #5995DA;
+        color: white;
+        font-size: 1.75em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+.menu-block {
+    border: 5px solid rgb(55, 23, 194);
     color: white;
-    padding: 20px 0;
-    font-size: 1.5em;
+    font-size: 3em;
+    background-color: sandybrown;
+    width: 300px;
+    height: 300px;
     display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+    flex-direction: column;
+    align-items: center;    
+}
+.meal {
+    font-size: .5em;
+    
+}
+.menu-grid {
+    width: 100%;
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    align-items: center;
 }
 
-  h2 {
-      font-size: 2.5em;
-  }
-  h3 {
-      font-size: 1.5em;
-  }
-  ul {
-      font-size: 1em;
-  }
-
+.catering-container {
+    font-size: 2em;
+}
   #catering {
-    font-size: 1.5em;
+      height: 15%;
+    font-size: 2em;
     background-color: saddlebrown;
     color: white;
-    padding: 20px 0;
+    padding: 5px;
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
+  }
+  
+  #cat-cont {
+      font-size: .5em;
   }
